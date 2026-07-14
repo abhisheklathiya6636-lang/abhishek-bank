@@ -1,0 +1,46 @@
+# Google Apps Script specific
+*.claspignore
+.clasp.json
+
+# Node modules (if using clasp)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.DS_Store
+
+# Build artifacts
+dist/
+build/
+
+# Sensitive data (never commit these!)
+.credentials
+credentials.json
+token.json
+secrets.json
+apikeys.json
